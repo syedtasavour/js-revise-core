@@ -17,3 +17,16 @@ console.log(obj3);
 // Merge obj2 and obj1
 const mergedObj = { ...obj2, ...obj1 };
 console.log(mergedObj);
+
+const course = {
+  coursename: "js in github",
+  price: "999",
+  courseInstructor: "name here"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
